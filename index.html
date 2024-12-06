@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Visio Home</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo"><img src="./Path 1.png" alt="" class="logo"></div>
+        <div class="toggler-icon">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="menu">
+            <li><a href="./HTML/about.html">About</a></li>
+            <li><a href="./HTML/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- Welcoming Slide -->
+    
+    <section class="firstSect">
+        <span>The brand I own</span>
+        <div class="welcoming-slide">
+            <p>Schillo</p>
+        </div>
+    </section>
+    <section class="textArrows">
+        <div class="text">
+            <p>
+                Visio is an investment management firm initially founded by Patrice Moyal in 2003. The nimble, highly focused and dynamic team manage assets across listed strategies for a diversified client base that includes some of the world’s largest and most sophisticated investors.
+
+            </p>
+        </div>
+        </div>
+        <div class="arrows">
+           <img src="./Component 3 – 1.png" alt="">
+        </div>
+    </section>
+    <section class="within">
+        <div class="cards">
+            <div id="card">
+                <img src="./Group 41.png" alt="" >
+            </div>
+            <section>
+                <img src="./unknown.png" alt="">
+                <img src="./unknown (1).png" alt="">
+            </section>
+        </div>
+        <div class="cards">
+            <div id="card">
+                <img src="./Group 42.png" alt="" >
+            </div>
+            <section>
+                <img src="./unknown (2).png" alt="">
+                <img src="./unknown (3).png" alt="">
+            </section>
+        </div>
+        <div class="cards">
+            <div id="card">
+                <img src="./Group 43.png" alt="" >
+            </div>
+            <section>
+                <img src="./unknown (4).png" alt="">
+                <img src="./unknown (5).png" alt="">
+            </section>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script>
+        $(document).ready(function () {
+            // Toggler functionality
+            $('.toggler-icon').click(function () {
+                $('.menu').toggleClass('show'); // Show/hide the menu
+            });
+        });
+    </script>
+</body>
+</html>

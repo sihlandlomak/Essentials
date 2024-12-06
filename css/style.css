@@ -1,0 +1,122 @@
+/* HOME STYLING */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    color: white;
+    position: sticky;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.navbar .toggler-icon {
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.navbar .toggler-icon .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: 0.5s;
+}
+
+.menu {
+    display: none; /* Always hidden initially */
+    flex-direction: column;
+    list-style: none;
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.menu.show {
+    display: flex; /* Show menu when toggled */
+}
+
+.menu li {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #ff9800;
+}
+
+/* welcoming-slide */
+
+.firstSect {
+    background: url(../sergey-pesterev-FRMt.png);
+    background-size: cover;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 100vh;
+}
+
+.textArrows {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    justify-content: center;
+}
+.text{
+    border: solid 1px #333;
+    width: 800px;
+}
+
+.within {
+    display: flex;
+    margin-top: 2%;
+   
+    justify-content: center;
+}
+#card{
+    border: solid 1px #c42b2b;
+    /* width: 350px; */
+    padding-left: 10px;
+}
+
+
+.logo{
+    width: 150px;
+    height: 75px;
+}
+
+span{
+    background-color: rgb(60, 60, 212);
+    height: 250px;
+    width: 300px;
+    margin-left: 0px;
+}
